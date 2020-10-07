@@ -92,3 +92,12 @@ header img {
 .center {
   text-align: center;
 }
+
+/* Loghi */
+#customer {
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+#loghi img {
+  width: 100%;
+}
