@@ -50,6 +50,14 @@ button.blue:hover {
   width: 40%;
 }
 
+#bs-example-navbar-collapse-1 a {
+  color: black;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+  color: #0099ff;
+}
+
 /* Jumbotron */
 
 #jumbotron {
@@ -115,7 +123,7 @@ button.blue:hover {
 }
 
 /* Sezione customer */
-#customer, #design {
+.back-grey {
   background-color: #f3f5f9;
   border: 1px solid lightgrey;
 }
@@ -161,6 +169,13 @@ button.blue:hover {
 
 .reduce > p {
   color: grey;
+}
+
+/* Design */
+
+#design p {
+  color: grey;
+  padding: 2% 0;
 }
 
 /* Final CTA */
