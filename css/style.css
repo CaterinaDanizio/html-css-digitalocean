@@ -9,33 +9,44 @@
   padding: 0;
   max-width: 100vw;
 }
-
-img {
+body {
+  font-family: sans-serif;
+}
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* Regole di debug */
 [class*="col-"] {
   min-height: 100px;
   /* background-color: lightgreen; */
-  border: solid 1px  #000;
+  /* border: solid 1px  #000; */
   padding: 2px;
 }
 
 
 /* Menu di navigazione */
 
-header .navbar-default {
-  border: none;
+ #menu-navigazione nav {
+   background-color: white;
+   border: none;
+}
+
+button.blue {
   background-color: white;
+  border-color: #0099ff;
+  color: #0099ff;
+  box-shadow: none;
 }
 
-.navbar-btn button {
-  background-color: blue;
+button.blue:hover {
+  background-color: #0099ff;
+  color: white;
 }
 
-header img {
+
+.navbar-brand > img {
   width: 40%;
 }
 
@@ -84,21 +95,116 @@ header img {
   margin: 2% 0;
   background-color: white;
 }
+
+.form button.btn-default img {
+  width: 25px;
+  padding-right: 2%;
+}
 .form h5 {
   color: black;
   margin: 2% 0;
 }
+
+.form a {
+  color: #0099ff;
+  }
 
 /* Sezione centrale */
 .center {
   text-align: center;
 }
 
-/* Loghi */
-#customer {
-  background-color: white;
+/* Sezione customer */
+#customer, #design {
+  background-color: #f3f5f9;
   border: 1px solid lightgrey;
 }
 #loghi img {
   width: 100%;
+  height: 200px;
+  padding-left: 2%;
+}
+#customer h4 {
+  color: grey;
+  padding-top: 10%;
+}
+#customer a {
+  color: #0099ff;
+}
+
+/* Sezione scale seamless */
+
+.reduce {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#deploy-section p {
+  color: grey;
+}
+
+#adv-menu li {
+  list-style: none;
+  color: grey;
+  padding-bottom: 2%;
+}
+
+#adv-menu {
+  padding-left: 10%;
+  border-left: 2px lightgrey solid;
+}
+
+.text-blue h2, #advantages h3 {
+  color: #000033;
+  font-weight: bolder;
+}
+
+.reduce > p {
+  color: grey;
+}
+
+/* Final CTA */
+
+#final-CTA {
+  background-color: #0000e6;
+
+}
+
+#final-CTA h2 {
+  font-weight: bolder;
+  color: white;
+}
+
+
+/* Footer */
+footer {
+  background-color: #010e28;
+}
+
+#credits {
+  color: grey;
+}
+
+footer li,a {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+  padding-bottom: 2%;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer h3{
+  color: white;
+}
+footer i {
+  padding-right: 2%;
+  font-size: 1.2em;
+}
+
+footer img {
+  padding: 2% 0;
 }
